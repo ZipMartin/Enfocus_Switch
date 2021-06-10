@@ -17,6 +17,6 @@ Things it does not do, as is:
 - Work with more than one two-sided PDF (no booklets, no multi-page documents)
 
 About the flow:
-The Switch flow first checks a PDF file for bleed by checking of the bleed box is bigger than the trim box. Very basic, just to show how and where it can be done. Then the PDF is renamed with "_bleed" or "_no_bleed". PitStop Server is used to adjust the PDF page geometry to accommodate bleed and to set the media box origin consistently to get expected placement from PDF Constructor. Next, the script executes, getting some values directly from the PDF. On successful creation of the imposition, the flow sorts imposed PDF, original PDF and XML file into respective folders.
+The Switch flow first checks a PDF file for bleed by checking if the bleed box is bigger than the trim box. Very basic, just to show how and where it can be done. Then the PDF is renamed with "_bleed" or "_no_bleed". PitStop Server is used to adjust the PDF page geometry to accommodate bleed and to set the media box origin consistently to get expected placement from PDF Constructor. Next, the script executes, getting some values directly from the PDF. On successful creation of the imposition, the flow sorts imposed PDF, original PDF and XML file into respective folders.
 
 Sorry, no support is offered for this solution. It is for educational purposes or for a starting point in development. 
