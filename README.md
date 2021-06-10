@@ -13,7 +13,7 @@ The script looks at trim size vs sheet size and creates a best-fit imposition. I
 
 Things it does not do, as is:
 - Dutch cut impositions
-- Cust and stack
+- Cut and stack
 - Work with more than one two-sided PDF (no booklets, no multi-page documents)
 
 About the flow:
